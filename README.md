@@ -65,7 +65,7 @@ python3 app.py
 ```
 sudo apt-get install chromium-chromedriver
 ```
-• **Patch**
+• **Directory File**
 
 ```dir
 /usr/lib/chromium-browser/chromedriver
