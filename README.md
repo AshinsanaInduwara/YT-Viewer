@@ -60,12 +60,12 @@ python3 app.py
 
 - Put "?autoplay=1" in end of video link and use absolute link, final link will be like: https://www.youtube.com/watch?v=xxxxxxxxxxx?autoplay=1
 
-• **Ubuntu server - Install chromedriver**
+- **Ubuntu server - Install chromedriver**
 
 ```
 sudo apt-get install chromium-chromedriver
 ```
-• **Directory File**
+- **Directory File**
 
 ```dir
 /usr/lib/chromium-browser/chromedriver
