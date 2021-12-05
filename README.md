@@ -1,10 +1,11 @@
 # YT-Viewer
 
-Ubuntu server - Install chromedriver
+~Ubuntu server - Install chromedriver
 ```sudo apt-get install chromium-chromedriver```
-Path
+~Path
 ```/usr/lib/chromium-browser/chromedriver```
-# Instal
+
+# Install
 ```pip3 install -r requirements.txt```
 
 # Run script
