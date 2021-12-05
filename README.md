@@ -44,9 +44,9 @@ The search time was seven days, but the script was run in only two days (48h).
 
 ## Running script
 
-```python
-pip install -r requirements.txt
-python app.py
+```python3
+pip3 install -r requirements.txt
+python3 app.py
 ```
 
 ## Observations
@@ -62,10 +62,9 @@ python app.py
 
 • **Ubuntu server - Install chromedriver**
 
-```bash
+```
 sudo apt-get install chromium-chromedriver
 ```
-
 • **Patch**
 
 ```dir
