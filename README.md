@@ -62,11 +62,15 @@ python app.py
 
 • **Ubuntu server - Install chromedriver**
 
->```sudo apt-get install chromium-chromedriver```
+```bash
+sudo apt-get install chromium-chromedriver
+```
 
 • **Patch**
 
->```/usr/lib/chromium-browser/chromedriver```
+```dir
+/usr/lib/chromium-browser/chromedriver
+```
 
 
 ## Donation
