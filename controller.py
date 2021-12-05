@@ -18,6 +18,7 @@ class Controller():
         options.add_argument('--no-sandbox')
         options.add_argument('disable-infobars')
         options.add_argument('--disable-extensions')
+        # option use proxy api
         PROXY = "http://api.scraperapi.com?api_key=26ba274254599620ff7aa0f676f09bd1&render=true&url="
         options.add_argument(
             '--proxy-server=%s' %
@@ -27,7 +28,7 @@ class Controller():
         options.add_argument('--mute-audio')
 
         driver = webdriver.Chrome(chrome_options=options,
-                                  executable_path=r'./driver/chromedriver')
+                                  executable_path=r'./driver/chromedriver') # for ubuntu server executable_path=r'/usr/lib/chromium-browser/chromedriver'
 
         # video data
         video_url = video_data['url']
@@ -44,10 +45,12 @@ class Controller():
 
             # variable for check if video is playing
             video_is_playing = True
-
+            
+            # check ads
             ads = driver.execute_script(
                 "return document.getElementsByClassName('ytp-ad-skip-button-text')[0]"
             )
+            # skip ads
             if ads is not None:
                # print(ads)
                 time.sleep(6)
