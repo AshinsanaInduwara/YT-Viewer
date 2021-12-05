@@ -1,11 +1,11 @@
-## YT-Viewer
+# YT-Viewer
  [![PayPal](https://user-images.githubusercontent.com/6497827/53698092-42032280-3dfe-11e9-8054-1597c62d344e.png)](https://paypal.me/0xT001)
 
--- **Ubuntu server - Install chromedriver**
+• **Ubuntu server - Install chromedriver**
 
 >```sudo apt-get install chromium-chromedriver```
 
--- **Patch**
+• **Patch**
 
 >```/usr/lib/chromium-browser/chromedriver```
 
